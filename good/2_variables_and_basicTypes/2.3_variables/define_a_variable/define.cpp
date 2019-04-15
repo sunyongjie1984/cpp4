@@ -19,6 +19,7 @@ int main( ) {
     f = &d1;
 
     int ( *g )( int ); // A pointer to a function a that takes an integer argument and returns an integer
+
     int ( *h[ 10 ] )( int ); // An array of 10 pointers to functions that take an integer argument and return an integer
     return 0;
 }
