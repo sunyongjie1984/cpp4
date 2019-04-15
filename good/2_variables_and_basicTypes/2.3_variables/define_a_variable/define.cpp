@@ -14,7 +14,7 @@ int main( ) {
 
     int d1[ 4 ] = { 2, 8, 7 }; // An array of 10 integers
     // error
-    //int ( *f )[ 3 ]; // A pointer to an array of 10 integers
+    //int ( *f )[ 3 ]; // 3 is not 4
     int ( *f )[ 4 ]; // A pointer to an array of 10 integers
     f = &d1;
 
