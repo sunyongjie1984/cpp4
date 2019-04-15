@@ -11,10 +11,10 @@ char* GetMemory(void)
 
 int main()
 {
-    char * str = NULL; // difine a pointer to a char
+    char* str = NULL; // difine a pointer to a char
     // std::cout << str;  // runtime error
     str = GetMemory();
-    printf(str);
+    printf( str );
     std::cout << std::endl;
     return 0;
 }
