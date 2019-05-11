@@ -111,6 +111,7 @@ inline
 istream& 
 operator>>(istream& in, Sales_item& s)
 {
+    std::cout << "enter operator>>" << std::endl;
     double price;
     in >> s.isbn >> s.units_sold >> price;
     // check that the inputs succeeded
